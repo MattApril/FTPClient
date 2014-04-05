@@ -1,0 +1,98 @@
+body, html{
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	background-color:#eff8fe;
+}
+
+#infoPanel{
+	background-color:#EEE;
+	padding:6px 20px;
+	
+}
+
+#infoPanel form{
+	float:right;
+}
+
+#nav{
+	padding:6px 12px;
+	padding-bottom:35px;
+}
+
+#nav button, #nav input {
+	float:left;
+}
+
+#explorerTable {
+	width:95%;
+	margin:auto;
+	border-collapse: collapse;
+}
+
+#explorerHead {
+	background-color:#ffe534;
+	outline: 5px solid #fff;
+	text-align:left;
+}
+
+#explorerHead th {
+	padding:8px;
+	padding-left:10px;
+}
+
+#explorer {
+	background-color:#fff;
+	outline: 5px solid #fff;
+	
+}
+
+#explorer td {
+	padding:6px;
+	padding-left:14px;
+	cursor:default;
+}
+
+#explorer a {
+	color:#000;
+}
+
+#explorer tr:hover{
+	background-color:#d8ecff;
+}
+
+#explorer tr.selected {
+	background-color:#bcdbf9;
+}
+
+#explorer tr.selected:hover {
+	background-color:#bcdbf9;
+}
+
+#overlay{ 
+	width:100%;
+	height:100%;
+	left:0;/*IE*/
+	top:0;
+	text-align:center;
+	z-index:5;
+	position:absolute; 
+	background-color:#000;
+	-moz-opacity: 0.5;/* makes the div transparent, so you have a cool overlay effect */
+    opacity: .50;
+    filter: alpha(opacity=50);
+}
+
+.pop{ 
+	width:600px;
+	margin:auto;
+	z-index:6;
+	left:0;/*IE*/
+	top:30%;
+	font-color:#cdcdcd;
+	text-align:center;
+	position:relative;
+	background-color:#fff;
+}
